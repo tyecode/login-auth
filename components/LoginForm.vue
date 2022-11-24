@@ -37,7 +37,7 @@ export default {
             } else if(this.username == "admin" && this.password == "admin") {
                 this.$router.push('/AdminPage')
             } else {
-                this.errorMessage = "Your user or password is incorrect."
+                this.errorMessage = "Your username or password is incorrect."
             }
         }
     }
